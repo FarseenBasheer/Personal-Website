@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farseen</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Farseen</h1>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <img src="images/farseen.JPG" alt="Profile Picture" class="profile-pic">
+            <h2>About Me</h2>
+            <p>Dedicated and results-driven Software Engineer with expertise in Magento backend development, agile methodologies, and technical mentorship. Passionate about delivering high-quality solutions and fostering collaborative team environments.</p>
+            <a href="resume/farseen .pdf" download="Farseen_Resume" class="button" id="download-resume">Download Resume</a>
+        </section>
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="job">
+                <div class="job-header">
+                    <h3>Software Engineer at Terrific Minds</h3>
+                    <p><strong>September 2022 - Present</strong></p>
+                </div>
+                <div class="job-details">
+                    <ul>
+                        <li>Spearheaded Magento backend development projects, leading custom module development and integration of third-party extensions.</li>
+                        <li>Collaborated with cross-functional teams to implement agile methodologies, ensuring efficient project management and timely delivery of quality solutions.</li>
+                        <li>Provided technical mentorship to junior developers, fostering a culture of continuous learning and skill development.</li>
+                        <li>Implemented and maintained Git workflows for version control, ensuring code quality and collaboration across teams.</li>
+                        <li>Utilized jQuery, JavaScript, HTML, and CSS to enhance frontend functionalities and user experience, ensuring a seamless user interface.</li>
+                        <li>Demonstrated expertise in overriding existing Magento functionalities to meet specific project requirements, ensuring project success and client satisfaction.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="job">
+                <div class="job-header">
+                    <h3>Advisory Intern-Analyst at Deloitte USI</h3>
+                    <p><strong>August 2021 - August 2022</strong></p>
+                </div>
+                <div class="job-details">
+                    <ul>
+                        <li>Assisted senior analysts in conducting risk assessments and financial analysis for clients across various industries, providing valuable insights to mitigate financial vulnerabilities.</li>
+                        <li>Compiled and analyzed data to identify potential risks and presented actionable insights to clients, contributing to informed decision-making processes.</li>
+                        <li>Prepared detailed reports and presentations for clients, effectively communicating complex financial information in a clear and concise manner.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Technology in Electronics and Communication Engineering</strong></p>
+            <p>Mar Athanasius College of Engineering, Kothamangalam (2017-2021)</p>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Magento 2.x</li>
+                <li>PHP, OOPS</li>
+                <li>HTML5, CSS3, JavaScript, jQuery, Ajax</li>
+                <li>Git</li>
+                <li>C language</li>
+                <li>Microsoft Excel</li>
+                <li>Agile Methodologies</li>
+                <li>Technical Mentorship</li>
+            </ul>
+        </section>
+        <section id="achievements" class="section">
+            <h2>Achievements & Awards</h2>
+            <ul>
+                <li>Adobe Certified Professional—Adobe Commerce Developer</li>
+                <li>Adobe Certified Professional—Adobe Commerce Business Practitioner</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2 class="contact-heading">Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="button" class="button" id="send-email">Send</button>
+            </form>
+        </section>       
+    </main>
+    <footer>
+        <p>&copy; 2024 Farseen. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/farseen-she-her-47b8411a4" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/username" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+</html>
