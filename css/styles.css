@@ -107,7 +107,7 @@ button:hover, .button:hover {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
     background: #333;
     color: #fff;
     width: 100%;
